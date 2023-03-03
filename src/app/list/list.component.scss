@@ -1,0 +1,33 @@
+ul.list {
+  list-style-type: none;
+  margin: 40px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul.list li {
+  width: calc(25% - 20px);
+  margin: 10px;
+  height: 134px;
+  border: 1px solid;
+  background: #f8f8f8;
+  color: #6296bb;
+  transition: 0.3s ease all;
+  line-height: 1;
+  min-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul.list li a {
+  text-decoration: none;
+  font-size: 18px;
+}
+ul.list li:hover {
+  background: #e3f2fd;
+  color: #477698;
+  box-shadow: 0 0 60px #b3cada inset;
+  border-radius: 20px;
+  text-decoration: none;
+}

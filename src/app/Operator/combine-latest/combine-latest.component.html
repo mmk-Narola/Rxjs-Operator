@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="my-3">
+        <h2>CombineLatest</h2>
+        <div class="row">
+            <div class="col-md-4 pr-4">
+
+                <hr>
+                <select class="form-control" #name>
+                    <option value="name">Select Name</option>
+                    <option *ngFor="let item of nameSource" value="{{item}}">
+                        {{item}}
+                    </option>
+                </select>
+
+                <br />
+
+                <select class="form-control" #color>
+                    <option value="color">Select Color</option>
+                    <option *ngFor="let item of colorSource" value="{{item}}">
+                        {{item}}
+                    </option>
+                </select>
+
+
+            </div>
+
+            <div class="col-md-8 ml-auto">
+                <hr>
+                <div class="wrapper" id="elContainer">
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
