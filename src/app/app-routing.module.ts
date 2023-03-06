@@ -21,6 +21,12 @@ import { ScanComponent } from './Operator/scan/scan.component';
 import { SwitchmapComponent } from './Operator/switchmap/switchmap.component';
 import { TapComponent } from './Operator/tap/tap.component';
 import { ShareComponent } from './Operator/share/share.component';
+import { NgstyleComponent } from './Operator/ngstyle/ngstyle.component';
+import { NgclassComponent } from './Operator/ngclass/ngclass.component';
+import { NgContentComponent } from './Operator/ng-content/ng-content.component';
+import { NgContainerComponent } from './Operator/ng-container/ng-container.component';
+import { NgTempleteComponent } from './Operator/ng-templete/ng-templete.component';
+import { NgTemplateOutletComponent } from './Operator/ng-template-outlet/ng-template-outlet.component';
 
 const routes: Routes = [
   { path: '', component: ListComponent },
@@ -44,6 +50,12 @@ const routes: Routes = [
   { path: 'switchMap', component: SwitchmapComponent },
   { path: 'tap', component: TapComponent },
   { path: 'share', component: ShareComponent },
+  { path: 'ngStyle', component: NgstyleComponent },
+  { path: 'ngClass', component: NgclassComponent },
+  { path: 'ngContent', component: NgContentComponent },
+  { path: 'ngContainer', component: NgContainerComponent },
+  { path: 'ngTemplete', component: NgTempleteComponent },
+  { path: 'ngTempleteOutlet', component: NgTemplateOutletComponent },
 ];
 
 @NgModule({
